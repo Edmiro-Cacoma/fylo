@@ -16,7 +16,7 @@ const Hero = () => {
               </p>
               <a
                 href="/"
-                className="block hover:bg-cyan default-p bg-gradient rounded-full text-base font-bold leading-[1.1875rem]"
+                className="block hover:bg-cyan default-p bg-gradient rounded-full text-base font-bold leading-[1.1875rem] "
               >
                 Get Started
               </a>
