@@ -76,7 +76,32 @@
   }
 
   /*Pseudo-elements for icons.*/
-  
+  .icon::before {
+    display: block;
+    content: "";
+  }
+
+  .link-icon {
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .link-icon::before{
+    position: absolute;
+    bottom: -20%;
+    width: 100%;
+    height: 0.0625rem;
+    background-color: theme("colors.cyan");
+  }
+  .link-icon::after {
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    content: "";
+    background: url(Assets/images/icon-arrow.svg);
+  }
+
   /*Hover effect on links*/
   .border-bottom::after {
     position: absolute;
