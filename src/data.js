@@ -4,6 +4,9 @@ import acessAnywhere from "../src/Assets/images/icon-access-anywhere.svg";
 import security from "../src/Assets/images/icon-security.svg";
 import collaboration from "../src/Assets/images/icon-collaboration.svg";
 import anyFile from "../src/Assets/images/icon-any-file.svg";
+import profile1 from "../src/Assets/images/profile-1.jpg";
+import profile2 from "../src/Assets/images/profile-2.jpg";
+import profile3 from "../src/Assets/images/profile-3.jpg";
 
 export const menus = [logo];
 export const altText = ["Fylo company logo", "files location image"];
@@ -70,5 +73,31 @@ export const IllustrationContent = [
     text: "Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.",
     text1:
       "Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.",
+  },
+];
+
+export const testimonials = [
+  {
+    author: "Satish Patel",
+    position: "Founder & CEO, Huddle",
+    testimonial:
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    image: profile1,
+  },
+
+  {
+    author: "Bruce McKenzie",
+    position: "Founder & CEO, Huddle",
+    testimonial:
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    image: profile2
+  },
+
+  {
+    author: "Iva Boyd",
+    position: "Founder & CEO, Huddle",
+    testimonial:
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    image: profile3
   },
 ];
