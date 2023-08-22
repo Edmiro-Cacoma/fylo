@@ -9,7 +9,7 @@
     <a href="https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-react-js-tailwind-css-framer-motion-HksqiU84kV"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://fylo-dark-theme-landing-page-hdez.vercel.app/">View Demo</a>
+    <a href="https://fylo-landing-page-git-master-edmiro-cacoma.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/MelvinAguilar/fylo-dark-theme-landing-page/issues" target="_blank">Report Bug</a>
     ·
