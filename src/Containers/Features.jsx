@@ -1,20 +1,15 @@
-import * as data from "../data";
+import Card from "../Components/Card";
+import {features} from "../data/features"
 
 const Features = () => {
   return (
-    <section className="mx-auto max-w-[59rem] px-8">
+    <section className="max-w-[59rem] mx-auto px-8">
       <h2 className="sr-only">Features</h2>
-      <article className=" text-center mx-auto flex flex-wrap justify-center gap-[4.9375rem] lg:justify-between">
-        {data.FeaturesContent.map((item) => (
-          <div className="w-96">
-            <img src={item.imageUrl} alt="" className="mx-auto" />
-            <h3 className="mt-4 mb-2 font-raleway text-xl font-bold leading-[1.4375rem]">
-              {item.title}
-            </h3>
-            <p className="leading-[150%]">{item.description}</p>
-          </div>
+      <div className="flex flex-wrap justify-center gap-[4.9375rem] lg:justify-between">
+        {features.map((feature, index) => (
+          <Card key={index} index={index} {...feature} />
         ))}
-      </article>
+      </div>
     </section>
   );
 };

@@ -60,6 +60,10 @@
     box-shadow: 0.125rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.15925);
   }
 
+  .shadow-d {
+    box-shadow: 0.3125rem 0.3125rem 0.5rem rgba(0, 0, 0, 0.254274);
+  }
+
   /*Curve image*/
   .curve::before {
     position: absolute;
@@ -122,7 +126,53 @@
     top: -7rem
   }
 
+  .icon-location {
+    display: flex;
+    gap: 1.75rem;
+  }
 
+  .icon-location::before {
+    width: 0.8125rem;
+    height: 1.125rem;
+    aspect-ratio: 1/1;
+    margin-top: 0.625rem;
+    background: url(./Assets/images/icon-location.svg)no-repeat center;
+  }
+
+  .icon-phone::before {
+    width: 1.25rem;
+    height: 1rem;
+    background: url(./Assets/images/icon-phone.svg)no-repeat center;
+  }
+
+  .icon-email::before {
+    width: 1.25rem;
+    height: 1rem;
+    background: url(./Assets/images/icon-email.svg)no-repeat center;
+  }
+
+  /*Floating form.*/
+  .absolute-form {
+    position: absolute;
+    inset: auto 0 auto 0;
+    margin: auto;
+    transform: translateY(-58%);
+  }
+
+  /*Links with social media icons.*/
+  .social-media {
+    display: grid;
+    width: 2.0225rem;
+    height: 1.9375rem;
+    border: 0.0574rem solid #DFE4F0;
+    border-radius: 50%;
+    place-content: center;
+  }
+
+  .social-media:hover {
+    color: theme('colors.cyan');
+    border-color: theme('colors.cyan');
+  }
 
   /*Hover effect on links*/
   .border-bottom::after {

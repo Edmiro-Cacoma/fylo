@@ -1,19 +1,43 @@
-import * as data from "../data";
-import { useState } from "react";
-
+import { simpleAnimationVariants } from "../utils/motion";
+import { staggerContainer, textVariants } from "../utils/motion";
+import MotionComponent from "../Components/MotionComponent";
+import logo from "../Assets/images/logo.svg";
 
 const Header = () => {
-  const [count] = useState(1);
+  const links = ["Features", "Team", "Sign In"];
   return (
-    <header className="flex flex-wrap items-center justify-center gap-8 max-w-[84rem] px-8 pt-8 text-base font-raleway mx-auto md:justify-between lg:pt-[4.5625rem]">
+    <header className="flex max-w-[84rem] mx-auto font-raleway flex-wrap items-center justify-center gap-8 px-8 pt-8 text-base md:justify-between lg:pt-[4.5625rem]">
       <a
         href="/"
-        className="absolute left-0 m-3 z-50 border-2 border-white bg-dark-blue-intro p-3 transition focus:translate-x-0 -translate-x-[150%] "
+        className="absolute left-0 z-50 m-3 -translate-x-[150%] bg-dark-blue-intro border-2 border-white p-3 transition focus:translate-x-0"
       >
-        skip to main content
+        Skip to main content
       </a>
-      <img src={data.menus[0]} alt={data.altText[0]} />
-      {count % 2 === 0 ? "": data.navMenu}
+      <MotionComponent as="a" variants={simpleAnimationVariants}>
+        <img
+          src={logo}
+          alt="Fylo"
+          width={176}
+          height={52}
+          className="w-28 md:w-auto"
+        />
+      </MotionComponent>
+      <nav aria-label="Main">
+        <MotionComponent
+          as="ul"
+          role="list"
+          variants={staggerContainer}
+          className="flex items-center gap-[3.5625rem]"
+        >
+          {links.map((link, index) => (
+            <MotionComponent as="li" role="listitem" key={index} variants={textVariants}>
+              <a href="/" className="relative border-bottom">
+                {link}
+              </a>
+            </MotionComponent>
+          ))}
+        </MotionComponent>
+      </nav>
     </header>
   );
 };

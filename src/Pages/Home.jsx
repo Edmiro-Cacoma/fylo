@@ -1,20 +1,24 @@
-import Header from "../Containers/Header";
 import Hero from "../Containers/Hero";
+import Header from "../Containers/Header";
 import Features from "../Containers/Features";
-import Illustration from "../Containers/illustrattion";
-import Testimonials from "../Containers/Testimonials";
+import Illustration from "../Containers/Illustration";
+import Testimonial from "../Containers/Testimonials";
+import Form from "../Containers/Form";
+import Footer from "../Containers/Footer";
 const Home = () => {
   return (
     <>
       <Header />
+      <Hero />
       <main>
-        <Hero />
         <div className="curve | relative bg-dark-blue-main">
           <Features />
           <Illustration />
-          <Testimonials/>
+          <Testimonial />
+          <Form />
         </div>
       </main>
+      <Footer />
     </>
   );
 };

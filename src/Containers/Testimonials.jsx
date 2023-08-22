@@ -1,16 +1,17 @@
-import * as data from "../data"
+
+
+import testmonials from "../data/testimonials"
 import Testimonial from "../Components/Testimonials";
 
-
 const Testimonials = () => {
-  return (
-    <div className="relative mx-auto flex max-w-[77.75rem] flex-wrap justify-center gap-10 px-8 pt-[3.6875rem] pb-[22.6875rem]">
-      <h2 className="sr-only">Testimonials</h2>
-
-      {data.testimonials.map((testimonial, index) => (
-        <Testimonial key={index} index={index} {...testimonial} />
-      ))}
-    </div>
-  );
+    return (
+        <section className="relative flex flex-wrap justify-center gap-10 max-w-[77.75rem] mx-auto px-8 pt-[3.6875rem] pb-[22.6875rem]">
+            
+        <h2 className="sr-only">Testimonials</h2>
+        {testmonials.map((testimonial, index) => (
+          <Testimonial key={index} index={index} {...testimonial} />
+        ))}
+      </section>
+    );
 };
 export default Testimonials;

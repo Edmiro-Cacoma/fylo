@@ -6,6 +6,20 @@ module.exports = {
       screens: {
         ctm: "90rem",
       },
+      lineHeight: {
+        error: "1.62",
+      },
+      fontFamily: {
+        raleway: ["Raleway", "sans-serif"],
+      },
+      minHeight: {
+        picture: "6.5rem",
+      },
+      maxWidth: {
+        "card-1": "21.8125rem",
+        "card-2": "24rem",
+        "card-default": "22.6875rem",
+      },
       colors: {
         //Primary
 
@@ -13,7 +27,7 @@ module.exports = {
         "dark-blue-main": " hsl(218, 28%, 13%)", //(main background)
         "dark-blue-footer": "hsl(216, 53%, 9%)", // (footer background)
         "dark-Blue-testimonials": "hsl(219, 30%, 18%)", //(testimonials background)
-
+        "dark-form": "hsla(217, 28%, 15%, 1);",
         // Accent
 
         cyan: "hsl(176, 68%, 64%)", //(inside call-to-action gradient)
