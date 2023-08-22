@@ -19,10 +19,8 @@
 
 <!-- Bagdes -->
 <div align="center">
-  <!-- Profile -->
-  <a href="https://www.frontendmentor.io/profile/Edmiro-Cacomar">
-    <img src="https://img.shields.io/badge/Profile-Melvin%20Aguilar-07043B?style=for-the-badge&logo=frontendmentor" alt="Edmiro Profile">
-  </a>
+  
+ <a>
   <!-- Status -->
     <a href="#">
     <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
@@ -44,7 +42,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Fylo dark theme landing page (React JS + Tailwind CSS + Framer Motion) | Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-react-js-tailwind-css-framer-motion-HksqiU84kV)
+- Solution URL: [Fylo dark theme landing page (React JS + Tailwind CSS + Framer Motion) | Frontend Mentor]()
 - Live Site URL: [https://fylo-dark-theme-landing-page-hdez.vercel.app/](https://fylo-dark-theme-landing-page-hdez.vercel.app/)
 
 <br>
@@ -92,7 +90,7 @@ Users should be able to:
 ### Useful resources
 
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion (React Animation Library) Crash Course | YT](https://youtu.be/1vKiPwEYbyk)
+- [Framer Motion (React Animation Library) Crash Course | YT](https://www.youtube.com/watch?v=2V1WK-3HQNk&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=1)
 - [Self-hosting fonts explained (including Google fonts) // @font-face tutorial | YT](https://www.youtube.com/watch?v=zK-yy6C2Nck&t=210s)
 - [useReducedMotion | A hook that determines whether the user prefers reduced motion.](https://www.framer.com/motion/use-reduced-motion/)
 - [Create more extensible React components with the “as” prop pattern](https://levelup.gitconnected.com/create-more-extensible-react-components-with-the-as-prop-pattern-b79bcbcf4024)
@@ -101,9 +99,3 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Edmiro Cacoma](https://www.frontendmentor.io/profile/Edmiro-Cacoma)
-
-
-```bash
-npm install
-npm run dev
-```
