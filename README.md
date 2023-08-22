@@ -11,9 +11,9 @@
     <br />
     <a href="https://fylo-landing-page-git-master-edmiro-cacoma.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/MelvinAguilar/fylo-dark-theme-landing-page/issues" target="_blank">Report Bug</a>
+    <a href="https://github.com/Edmiro-Cacoma/fylo/issues" target="_blank">Report Bug</a>
     ·
-    <a href="https://github.com/MelvinAguilar/fylo-dark-theme-landing-page/issues" target="_blank">Request Feature</a>
+    <a href="https://github.com/Edmiro-Cacoma/fylo/issues" target="_blank">Request Feature</a>
   </p>
 </div>
 
