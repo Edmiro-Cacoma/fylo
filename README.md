@@ -42,7 +42,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Fylo dark theme landing page (React JS + Tailwind CSS + Framer Motion) | Frontend Mentor]()
+- Solution URL: [Fylo dark theme landing page (React JS + Tailwind CSS + Framer Motion) | Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-react-js-tailwind-css-framer-motion-OiiQ1-CWiR)
 - Live Site URL: [https://fylo-dark-theme-landing-page-hdez.vercel.app/](https://fylo-dark-theme-landing-page-hdez.vercel.app/)
 
 <br>
