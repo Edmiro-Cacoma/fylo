@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
 
-In the project directory, you can run:
+  <h2 align="center">Fylo dark theme landing page solution</h2>
+  <p align="center">
+    <a href="https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-react-js-tailwind-css-framer-motion-HksqiU84kV"><strong>Frontend Mentor Challenge</strong></a>
+    <br />
+    <br />
+    <a href="https://fylo-dark-theme-landing-page-hdez.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/MelvinAguilar/fylo-dark-theme-landing-page/issues" target="_blank">Report Bug</a>
+    ·
+    <a href="https://github.com/MelvinAguilar/fylo-dark-theme-landing-page/issues" target="_blank">Request Feature</a>
+  </p>
+</div>
 
-### `npm start`
+<!-- Bagdes -->
+<div align="center">
+  <!-- Profile -->
+  <a href="https://www.frontendmentor.io/profile/Edmiro-Cacomar">
+    <img src="https://img.shields.io/badge/Profile-Melvin%20Aguilar-07043B?style=for-the-badge&logo=frontendmentor" alt="Edmiro Profile">
+  </a>
+  <!-- Status -->
+    <a href="#">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#
 
-### `npm test`
+<div align="center">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![fylo](https://github.com/Edmiro-Cacoma/fylo/assets/62661230/083c436b-73cc-47c3-b7f5-054c4561d1b0)
+![fyloMobile](https://github.com/Edmiro-Cacoma/fylo/assets/62661230/6e31e323-ce03-48c7-bc24-3d5dc8f162e1)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 align="center">Links</h2>
 
-### `npm run eject`
+- Solution URL: [Fylo dark theme landing page (React JS + Tailwind CSS + Framer Motion) | Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-react-js-tailwind-css-framer-motion-HksqiU84kV)
+- Live Site URL: [https://fylo-dark-theme-landing-page-hdez.vercel.app/](https://fylo-dark-theme-landing-page-hdez.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Table of contents
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Overview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### The challenge
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Users should be able to:
 
-### Code Splitting
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## My process
 
-### Analyzing the Bundle Size
+### Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- Bagdes -->
 
-### Making a Progressive Web App
+![](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![](https://img.shields.io/badge/React%20hook%20form-FF0080?style=for-the-badge&logo=react&logoColor=white)
+![](https://img.shields.io/badge/framer%20motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- ![](https://img.shields.io/badge/ -->
 
-### Advanced Configuration
+- Tailwind CSS
+- React
+- React hook form
+- Framer Motion
+- Semantic HTML5 markup
+- Flex and grid Layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Useful resources
 
-### Deployment
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion (React Animation Library) Crash Course | YT](https://youtu.be/1vKiPwEYbyk)
+- [Self-hosting fonts explained (including Google fonts) // @font-face tutorial | YT](https://www.youtube.com/watch?v=zK-yy6C2Nck&t=210s)
+- [useReducedMotion | A hook that determines whether the user prefers reduced motion.](https://www.framer.com/motion/use-reduced-motion/)
+- [Create more extensible React components with the “as” prop pattern](https://levelup.gitconnected.com/create-more-extensible-react-components-with-the-as-prop-pattern-b79bcbcf4024)
+- [Optimize Largest Contentful Paint | Optimize when the resource is discovered](https://web.dev/optimize-lcp/#optimize-when-the-resource-is-discovered)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+- Frontend Mentor - [@Edmiro Cacoma](https://www.frontendmentor.io/profile/Edmiro-Cacoma)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+```bash
+npm install
+npm run dev
+```
